@@ -1,0 +1,81 @@
+body {
+  font-family: sans-serif;
+  max-width: 500px;
+  margin: 40px auto;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  margin: 10px;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #080808;
+}
+
+.searchBox {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  padding: 11px;
+  border-radius: 5px;
+  box-shadow: none;
+  min-width: 175px;
+}
+
+button {
+  padding: 12.5px 30px;
+  background-color: rgb(39, 103, 39);
+  color: #fff;
+  box-shadow: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 350px;
+  background-color: rgb(128, 120, 51);
+  color: #fff;
+  padding: 25px;
+  margin-top: 30px;
+  border-radius: 15px;
+}
+
+#avatar {
+  width: 120px;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+#profileName {
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+#userBio {
+  text-align: center;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+#errorMsg {
+  color: red;
+  margin: 10px 0 0;
+}
+
+.error {
+  color: red;
+}
